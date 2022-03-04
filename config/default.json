@@ -1,0 +1,34 @@
+{
+    "app": {
+        "name": "Facebook clone"
+    },
+    "server": {
+        "host": "127.0.0.1",
+        "port": 3000,
+        "url": "http://127.0.0.1:3000"
+    },
+    "mongodb": {
+        "url": "mongodb://127.0.0.1:27017/facebookClone"
+    },
+    "nodemailer": {
+        "host": "",
+        "port": 25,
+        "secure": false,
+        "auth": {
+            "user": "",
+            "pass": ""
+        },
+        "tls": {
+            "rejectUnauthorized": false
+        }
+    },
+    "master": {
+        "password": "abcd1234",
+        "otp": "4444"
+    },
+    "runBackgroundTasks": false,
+    "fcm": {
+        "serverKey": "",
+        "senderId": ""
+    }
+}
